@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: normal;
+}
+
+
+@font-face {
+
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+    font-weight: medium;
+}
+
+
+body {
+
+    font-family: "Roboto-Regular", sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.image-miracles {
+
+    width: 1440px;
+    max-width: 1440px;
+}
+
+.flex-box{
+
+    display: flex;
+    justify-content: center;
+}
+
+a{
+
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-left: 48px;
+    margin-right: 48px;
+
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.logo img {
+
+    margin-right: 16px;
+}
+
+nav{
+  
+    align-self: center;
+    flex: 1;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+
+    display: inline-block;
+    align-self: center;
+}
+
+nav ul li:not(:last-child) {
+
+    margin-right: 40px;
+}
+
+.enlaces {
+    flex: 1;
+    text-align: right;
+}
+.enlaces li{
+
+    display: inline;
+    align-self: center;
+    margin-right: 40px;
+    
+}
+
+.enlaces li:not(last-child){
+
+margin-right: 40px;
+}
+
+main{
+
+    margin-top: 96px;
+}
+
+h1 {
+
+    font-weight: bold;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-top: 96px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 26px;
+
+}
+
+h2 {
+
+    font-size: 42px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.images {
+    text-align: center;
+}
+
+.special-h2 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.otros-trabajos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.trabajo {
+    width: 30%;
+}
+
+.trabajo img{
+    width: 100%;
+}
+
+.special-p {
+
+    font-weight: normal;
+    display: flex;
+    justify-content: flex-start;
+
+}
